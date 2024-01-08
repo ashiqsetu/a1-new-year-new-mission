@@ -459,6 +459,62 @@ h1,h2,h3,h4,h5,h6 {
     background: #070211;
 }
 
+.footer-top-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.footer-top-area p {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
 
+.contact-info-list li a {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-middle-area {
+    padding: 48px;
+    margin: 50px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.social-icon-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.footer-bottom-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-bottom-area p a,
+.footer-bottom-area p {
+    color: #fff;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    transition: all 0.3s ease;
+}
+.footer-bottom-area p a:hover {
+    color: #f00;
+}
 
