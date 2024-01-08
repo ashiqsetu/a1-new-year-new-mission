@@ -199,6 +199,10 @@ h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
     margin-left: 32px;
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+.welcome-content a:hover {
+    color: #f00;
 }
 
 /* Hotel address section styles  */
@@ -225,7 +229,7 @@ h1,h2,h3,h4,h5,h6 {
 .hotel-address-content a {
     border-radius: 8px;
     background: #F00;
-    padding: 16px 32px;
+    padding: 15px 32px;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -234,6 +238,14 @@ h1,h2,h3,h4,h5,h6 {
     text-decoration: none;
     margin-top: 48px;
     display: inline-block;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.hotel-address-content a:hover {
+    color: #f00;
+    background: transparent;
+    border-color: #f00;
 }
 
 
@@ -482,6 +494,10 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
+    transition: all 0.3s ease;
+}
+.contact-info-list li a:hover {
+    color: #f00;
 }
 
 .footer-middle-area {
